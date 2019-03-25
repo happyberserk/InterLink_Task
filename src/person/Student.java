@@ -1,10 +1,11 @@
-package person;
+package src.person;
 
-import person.consciousness.Knowledge;
+
+import src.person.consciousness.Knowledge;
 
 public class Student {
-    String name;
-    Knowledge knowledge;
+    public String name;
+    public Knowledge knowledge;
 
     public Student(String name) {
         this.name = name;

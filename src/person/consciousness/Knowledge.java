@@ -1,4 +1,4 @@
-package person.consciousness;
+package src.person.consciousness;
 
 public class Knowledge {
     int level;

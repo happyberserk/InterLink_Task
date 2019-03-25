@@ -1,8 +1,9 @@
-package main;
+package src.main;
 
 import institution.University;
-import institution.interlink.Internship;
-import person.Student;
+import src.institution.University;
+import src.institution.interlink.Internship;
+import src.person.Student;
 
 public class Application {
     public static void main(String[] args) {

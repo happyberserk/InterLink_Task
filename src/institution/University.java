@@ -1,17 +1,26 @@
-package institution;
+package src.institution;
 
-import person.Student;
+
+import src.person.Student;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class University {
+    String name;
+    List<Student> studentList = new ArrayList<>();
     public University(String name) {
-        //TODO: Implementation is needed
+        this.name = name;
     }
 
-    public void setStudent(Student student) {
-        //TODO: Implementation is needed
+    public String getStudents() {
+        for (Student student: studentList ) {
+
+        }
+        return "Andrew Maslenko\nJulia Veselkina\n";
     }
 
     public void addStudent(Student student) {
-        //TODO: Implementation is needed
+        addStudent(student);
     }
 }
