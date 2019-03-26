@@ -14,10 +14,12 @@ public class University {
     }
 
     public String getStudents() {
+        String names = "";
         for (Student student: studentList ) {
-
+        name += student.name;
+        name += "\n";
         }
-        return "Andrew Maslenko\nJulia Veselkina\n";
+        return names;
     }
 
     public void addStudent(Student student) {

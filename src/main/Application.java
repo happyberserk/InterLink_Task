@@ -1,6 +1,5 @@
 package src.main;
 
-import institution.University;
 import src.institution.University;
 import src.institution.interlink.Internship;
 import src.person.Student;
@@ -17,4 +16,4 @@ public class Application {
         System.out.println(internship.getStudents());
 
     }
-}
+};

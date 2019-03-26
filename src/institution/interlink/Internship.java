@@ -19,9 +19,12 @@ public class Internship {
     }
 
     public String getStudents() {
+        String names = "";
         for (Student student: studentList ) {
-            student.name
+            names += student.name;
+            names += "\n";
+            // // This task was a little bit hard for me so I have skipped it.
         }
-        return "Andrew Maslenko\nJulia Veselkina\n";
+        return names;
     }
 }
