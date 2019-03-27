@@ -16,8 +16,8 @@ public class University {
     public String getStudents() {
         String names = "";
         for (Student student: studentList ) {
-        name += student.name;
-        name += "\n";
+        names += student.name;
+        names += "\n";
         }
         return names;
     }
